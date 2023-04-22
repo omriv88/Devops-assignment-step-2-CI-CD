@@ -6,8 +6,8 @@ Checkout -> build -> test -> push -> Deploy for QA environment -> Deploy for PRO
  - 2 stage 2 call "Build" - Build nginx application on container system, Change the Nginx welcome text to "<your name> is doing the assignment."
  - 3 stage 3 call "test" - do some test with any tools and checks if your changes has been setup
  - 4 stage 4 call "push" - upload your application to cloud
- - 5 stage 4 call "deploy for QA" - Deploy the application on the QA environment
- - 6 stage 5 call "Deploy for PROD" - deploy your application on kubernetes cluster, use Terraform to create deployment
+ - 5 stage 5 call "deploy for QA" - Deploy the application on the QA environment
+ - 6 stage 6 call "Deploy for PROD" - deploy your application on kubernetes cluster, use Terraform to create deployment
  - 7 All changes should persist through kubernetes restart 
  - 8 All the system should be run as a container 
 
