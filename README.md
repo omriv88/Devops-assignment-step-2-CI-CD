@@ -1,8 +1,6 @@
 # Devops-assignment-step-2
-Create CI CD pipeline that does the following setup -> Checkout -> build -> test -> push -> Deploy for QA environment -> Deploy for PROD - deploy your application on kubernetes cluster, use Terraform to create deployment
-
-
 Create CI CD pipeline that does the following setup:
+Checkout -> build -> test -> push -> Deploy for QA environment -> Deploy for PROD - deploy your application on kubernetes cluster, use Terraform to create deployment
 
  - 1 stage 1 call "Checkout" - check your repositoreis
  - 2 stage 2 call "Build" - Build nginx application on container system, Change the Nginx welcome text to "<your name> is doing the assignment."
